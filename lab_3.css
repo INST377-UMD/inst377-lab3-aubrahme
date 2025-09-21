@@ -1,0 +1,77 @@
+body {
+
+    background-color: rgba(182, 205, 218, 0.737);
+
+}
+
+#bar {
+
+    text-align: center;
+    background-color: #7c7c7c;
+    color: white;
+    padding: 5px;
+    font-family: cursive; 
+    clear: both;
+}
+
+
+#main-nav {
+    background-color: rgb(217, 158, 169);
+    text-align: center;
+
+}
+
+#main-nav li {
+
+    display: inline-block;
+    position: relative;
+}
+
+#main-nav li:hover {
+    background-color: #7c7c7c;
+    color: white;
+}
+
+#main-nav ul ul {
+    display:none;
+    position: absolute;
+}
+
+/* if theres ul under list element when hovering, show it */
+#main-nav li:hover ul {
+    display: block;
+    background-color:rgb(217, 158, 169) ;
+    float: left;
+    position: absolute;
+    padding: 0px;
+}
+
+#main-nav ul li{
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.content-box {
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    /* margin sep each elem from eachother */
+    margin: 5px;
+/* padding sep from within each elem */
+    padding: 5px;
+    float: left;
+    width: 70%;
+
+}
+
+
+#contact {
+    text-align: center;
+    background-color: rgb(127, 186, 127);
+    float: right;
+    width: 25%;
+    border: 2px solid black;
+}
+
