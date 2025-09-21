@@ -21,10 +21,16 @@ body {
 
 }
 
+#main-nav li a{
+text-decoration: none;
+}
+
+
 #main-nav li {
 
     display: inline-block;
     position: relative;
+    color: black;
 }
 
 #main-nav li:hover {
@@ -53,7 +59,7 @@ body {
 }
 
 .content-box {
-    background-color: aliceblue;
+    background-color: rgb(103, 165, 219);
     color: black;
     border: 2px solid black;
     border-radius: 15px;
@@ -63,15 +69,27 @@ body {
     padding: 5px;
     float: left;
     width: 70%;
+    font-family:'Times New Roman', Times, serif; 
 
 }
 
+.content-box :focus{
+    width: 400px;
+}
 
-#contact {
+
+#rules {
     text-align: center;
     background-color: rgb(127, 186, 127);
     float: right;
     width: 25%;
     border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+
+    
 }
 
+#rules:hover {
+    background-color:mediumpurple;
+}
